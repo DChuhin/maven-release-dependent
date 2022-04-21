@@ -8,6 +8,10 @@
     <artifactId>maven-release-dependent</artifactId>
     <version>2.4-SNAPSHOT</version>
 
+    <scm>
+        <connection>scm:git:https://github.com/DChuhin/maven-release-dependent.git</connection>
+    </scm>
+
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -17,7 +21,7 @@
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>maven-release-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
