@@ -4,11 +4,11 @@
 
     <groupId>org.example</groupId>
     <artifactId>maven-release-dependent</artifactId>
-    <version>2.7-SNAPSHOT</version>
+    <version>2.7</version>
 
     <scm>
         <connection>scm:git:https://github.com/DChuhin/maven-release-dependent.git</connection>
-      <tag>HEAD</tag>
+      <tag>maven-release-dependent/2.7</tag>
   </scm>
 
     <properties>
